@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-sql-syntax-abstract-syntax-tree-validator-skill"
+version = "1.0.0"
+description = "In-memory recursive SQL query validator checking syntax safety and blocking dangerous DDL/DML injection commands"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
